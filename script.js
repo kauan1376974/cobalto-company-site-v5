@@ -160,9 +160,7 @@ document.querySelectorAll("[data-service]").forEach(link=>link.addEventListener(
 })();
 
 
-// WhatsApp flutuante: configure somente o número oficial da empresa (DDI + DDD + número).
-// Exemplo de formato: 55 + DDD + número, sem +, espaços ou traços.
-const COBALTO_WHATSAPP_NUMBER = "5511932839562"; // preencher quando o chip empresarial estiver ativo
+const COBALTO_WHATSAPP_NUMBER = "5511932839562";
 const whatsappFloat = document.querySelector("#whatsapp-float");
 whatsappFloat?.addEventListener("click", event => {
   if (!COBALTO_WHATSAPP_NUMBER) {
